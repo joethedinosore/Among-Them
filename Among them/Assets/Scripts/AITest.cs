@@ -8,11 +8,11 @@ public class AITest : MonoBehaviour
 
     public NavMeshAgent agent;
 
-    public Vector3 target;
+    public Transform target;
 
     // Start is called before the first frame update
     void Start()
     {
-        agent.SetDestination(target);
+        agent.SetDestination(target.position);
     }
 }
