@@ -5958,7 +5958,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 5.633e-42, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.6423e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6200,7 +6200,6 @@ Transform:
   - {fileID: 430047962}
   - {fileID: 1290153118}
   - {fileID: 620992602}
-  - {fileID: 1719112401}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9161,12 +9160,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1822808070}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1719112401 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1962206705}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1732605327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
@@ -10525,80 +10518,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d, type: 3}
---- !u!1001 &1962206705
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1188988137}
-    m_Modifications:
-    - target: {fileID: 3278965863980451219, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: targetParent
-      value: 
-      objectReference: {fileID: 1586970059}
-    - target: {fileID: 6100098810103453890, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_Name
-      value: WanderAI (90)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100098810103453915, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b38cc1eb7df0c9d4785ed7a6a7a6c21d, type: 3}
 --- !u!1001 &1965275754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10950,7 +10869,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 7.32e-42, z: 0, w: NaN}
+  m_BoundingSphereOverride: {x: 0, y: 1.7853e-41, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
